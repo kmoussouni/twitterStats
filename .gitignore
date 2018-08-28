@@ -1,0 +1,38 @@
+.idea/
+/node_modules/
+/app/logs/*
+###> symfony/framework-bundle ###
+.env
+/public/bundles/
+/public/media/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+.data/
+
+###< doctrine/doctrine-migrations-bundle ###
+src/Migrations
+
+
+###> symfony/web-server-bundle ###
+.web-server-pid
+###< symfony/web-server-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/webpack-encore-pack ###
+/public/build/
+###< symfony/webpack-encore-pack ###
+
+###> friendsofphp/php-cs-fixer ###
+/.php_cs
+/.php_cs.cache
+
+###> lexik/jwt-authentication-bundle ###
+/config/jwt/*.pem
+###< lexik/jwt-authentication-bundle ###
+/phpdoc.xml
+/package-lock.jso
